@@ -1,0 +1,134 @@
+ul, p, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    background-color: rgba(217, 217, 217, 1);
+    overflow: hidden;
+}
+
+header {
+    height: 100%;
+    width: 22vw;
+    background-color: black;
+}
+
+#panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#panel > section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#panel > div {
+    width: 100%;
+    height: 149px;
+    margin-bottom: 15px;
+}
+
+#logo { 
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 136px;
+    text-align: center;
+    color: black;
+    text-shadow: 11px 13px 0px rgba(255, 255, 255, 0.25),
+    -1px 1px 0 white,
+    1px 1px 0 white,
+    1px -1px 0 white,
+    -1px -1px 0 white;
+}
+
+.channel {
+    width: 270px;
+    height: 260px;
+    padding-top: 10px;
+    padding-left: 45px;
+    background-color: rgba(48, 48, 48, 1);
+    box-shadow: 9px 5px 6px 4px rgba(255, 255, 255, 0.25), inset 11px 5px 4px #FF33CC;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.channel > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.styled {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+
+    color: #FF33CC;
+}
+
+.item {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #AFAFAF;
+}
+
+.new-item { 
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+#personal > p {
+    text-align: center;
+}
+
+#projects > p {
+    text-align: center;
+}
+
+#shared > p {
+    text-align: center;
+}
+
+#shared {
+    margin-top: 25px;
+    height: 110px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: white;
+    height: 4vh;
+}
